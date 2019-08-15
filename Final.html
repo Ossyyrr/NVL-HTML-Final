@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+              /*pseudo elementos*/
+::placeholder {
+  color: rgb(140, 200, 202)
+}
+::selection { 
+  color: gold;  background: azure;
+ } 
+p::first-letter {
+  font-size: 180%;
+  color:rgb(5, 64, 109);
+}
 
+              /*--------*/
+</style>
 </head>
 <body style="text-align: center">
   <header>
@@ -38,9 +52,9 @@
         <td><img src="Pupu.jpg" width="200px"></td>
     </tr>
     <tr>   
-        <td style="padding: 15px 180px;">Adiestrador, ganador del concurso canino en Dogarden por tercer año consecutivo. Corrijo los malos hábitos de tus mascotas.</td>
-        <td style="padding: 15px 90px;">Peluquera profesional de mascotas, estaré encantada de cuidar y acicalar a todos vuestros animalitos.</td>
-        <td style="padding: 15px 180px;">Veterinaria, me encargo de que la alimentación y la salud de tus mascotas sea óptima durante su estancia con nosotros.</td>
+        <td style="padding: 15px 180px;"><p>Adiestrador, ganador del concurso canino en Dogarden por tercer año consecutivo. Corrijo los malos hábitos de tus mascotas.</p></td>
+        <td style="padding: 15px 90px;"><p>Peluquera profesional de mascotas, estaré encantada de cuidar y acicalar a todos vuestros animalitos.</p></td>
+        <td style="padding: 15px 180px;"><p>Veterinaria, me encargo de que la alimentación y la salud de tus mascotas sea óptima durante su estancia con nosotros.</p></td>
     </tr>
   </table>
 
@@ -124,7 +138,7 @@
    <a href="#up"> <img src="up.png" height="150px"></a>
   </div>
   <footer>
-    <p><em>Paginita para probar cosas en HTML del prework del bootcamp.</em></p>
+    <em>Paginita para probar cosas en HTML del prework del bootcamp.</em>
   </footer>
 </body>
 
